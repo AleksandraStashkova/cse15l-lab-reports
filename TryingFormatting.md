@@ -1,7 +1,5 @@
 New File
-
-*Just seeing*
-
+ *Just seeing*
 __Hey__
 
 # Woah
