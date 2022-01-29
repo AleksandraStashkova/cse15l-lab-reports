@@ -53,3 +53,8 @@ the New.java there:*
 *We see the New.java on remote server and the changes are presented to us. Yay!*
 
 ![Image](Final.png)
+
+
+How to make remote running more pleasant? Just take a look at the screenshot.
+
+<img width="767" alt="Screen Shot 2022-01-28 at 15 59 06" src="https://user-images.githubusercontent.com/97698957/151637294-92bd6296-479b-49fa-867c-f4cb27f87086.png">

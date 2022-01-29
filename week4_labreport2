@@ -1,0 +1,2 @@
+The first change occured when we worked on removing the exclamation mark before the image link. Since the program was looking for the opening bracket first,
+we needed to get rid of the exclamation to receive the actual link printed.
