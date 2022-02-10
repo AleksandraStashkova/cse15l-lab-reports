@@ -7,7 +7,9 @@ required code changes and surely overall understanding of the material. I decide
 
 
 > Code Change 1
-The first code change will reference the fact that while testing the test2.md file, the program does not realize the difference between the link and the image. The output:
+The first code change will reference the fact that while testing the test2.md file, the program does not realize the difference between the link and the image. The test file is at:
+[link](https://github.com/AleksandraStashkova/cse15l-lab-reports/blob/main/test2.md)
+The output:
 
 ![image](SS1.png)
 
