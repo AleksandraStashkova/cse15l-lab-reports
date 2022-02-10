@@ -22,16 +22,22 @@ This bug is actually cause by the fact that the program ignored the "!" in the b
 
  ![image](SS2.png)
 
+The test file is at:
+[link](https://github.com/AleksandraStashkova/cse15l-lab-reports/blob/main/test2.md)
+
 Meamwhile, I hadnoticed that my while loop is actually never going to break. So, I added the if condition which could possibly help me in the future steps. I am still full of hopes that the code will run successfully.
 
 I made the following commit:
 ![Image](commit.png)
-This commit is precisely to ignore anything that begins with the exclamation point. 
+This commit is precisely to ignore anything that begins with the exclamation point. That is because the syntax of the image and link is so similar and the only difference is the exclamation point. However, I want my program to only read links, that is why i would like to make sure to ignore the exclamation points.
 
 > Code Change 3
 
 This is still my current output:
 ![image](SS3.png)
+
+The test file is at:
+[link](https://github.com/AleksandraStashkova/cse15l-lab-reports/blob/main/test2.md)
 
 In order to figure out what the problem was, I decided to read through the code thoroughly. Since I kept getting the OutOf Bounds exception it only made sense to provide restrictions throughout the code. This is what I mean:
 
