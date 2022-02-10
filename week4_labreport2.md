@@ -20,3 +20,10 @@ This bug is actually cause by the fact that the program ignored the "!" in the b
  ![image](SSH2.png)
 
 Meamwhile, I hadnoticed that my while loop is actually never going to break. So, I added the if condition which could possibly help me in the future steps. I am still full of hopes that the code will run successfully.
+
+> Code Change 3
+
+This is still my current output:
+![image](SS3.png)
+
+In order to figure out what the problem was, I decided to read through the code thoroughly.

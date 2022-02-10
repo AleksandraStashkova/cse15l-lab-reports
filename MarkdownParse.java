@@ -20,6 +20,14 @@ public class MarkdownParse {
             if (markdown.charAt(nextOpenBracket - 1) != '!'){
                 toReturn.add(markdown.substring(openParen + 1, closeParen));
             }
+            if (openParen == nextCloseBracket + 1){
+                if (nextOpenBracket != 0 && markdown.charAt(nextOpenBracket -1) != '!'){
+                    toReturn.add(markdown.substring(openParen + 1, closeParen));
+                }
+                else if (markdown.charAt(currentIndex) == '['){
+                    toReturn.add(markdown.substring(openParen + 1, closeParen));
+                }
+            }
             currentIndex = closeParen + 1;
         }
         return toReturn;
