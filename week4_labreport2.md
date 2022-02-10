@@ -22,6 +22,10 @@ This bug is actually cause by the fact that the program ignored the "!" in the b
 
 Meamwhile, I hadnoticed that my while loop is actually never going to break. So, I added the if condition which could possibly help me in the future steps. I am still full of hopes that the code will run successfully.
 
+I made the following commit:
+![Image](commit.png)
+This commit is precisely to ignore anything that begins with the exclamation point. 
+
 > Code Change 3
 
 This is still my current output:
@@ -31,4 +35,5 @@ In order to figure out what the problem was, I decided to read through the code 
 
 ![image](CC3.png)
 
+This is making sure that the program would read only the links which begin with [] and not (). this is crucial for the next casesas we would like to check which paranthesis are being used.
 Finally, I got the program to only show the link and not the image. 
