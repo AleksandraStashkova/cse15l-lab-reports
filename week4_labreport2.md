@@ -12,3 +12,11 @@ The first code change will reference the fact that while testing the test2.md fi
 ![image](SS1.png)
 
 This bug is actually cause by the fact that the program ignored the "!" in the beginning. This is why I am going to implement a following change:
+ ![image](CC1.png)
+
+ > Code Change 2
+ Whilst I thought previous cide change will make the program work, it did not. Thus, I kept on debugging. Current output looks as such:
+
+ ![image](SSH2.png)
+
+Meamwhile, I hadnoticed that my while loop is actually never going to break. So, I added the if condition which could possibly help me in the future steps. I am still full of hopes that the code will run successfully.
