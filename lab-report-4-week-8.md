@@ -30,4 +30,7 @@ My Code: test3.
 ![image](my3.png)
 The code reads the entire code without any distinguishers. It just keeps going.
 
-
+Answers:
+1. We could solve the issue by adding the check-point for backtick. The change would probably take less than 10 lines of code.
+2. We must add a check-point for not just any ")", but make the code check for a very last one of ")" on a given line. The change would take less than 10 lines of code.
+3. We should make a check point which would make sure that the entire link is on one line instead of multiple as well as change up the search engine for the ")". The change would take more than 10 lines of code.
