@@ -8,4 +8,26 @@ My Code is from [link](https://github.com/AleksandraStashkova/markdown_parse2).
 **Snippet 1**
 
 Reviewed Code: test 1. 
-![image]
+![image](reviewed1.png)
+Expected array included three links which indicated that the test failed.
+My Code: test 1.
+![image](my1.png)
+Test is failed as well. My code has found too many links and read the links that were not meant to be read.
+
+**Snippet 2**
+Reviewed Code: test2.
+![image](reviewed2.png)
+The code of the reviewed group has completed everything successfully.
+My Code: test 2.
+![image](my2.png)
+My code has failed because the code did not follow after the ).
+
+**Snippet 3**
+Reviewed Code: test3.
+![image](reviewed3.png)
+The code has failed because the code is finding links even if the line separates the ().
+My Code: test3.
+![image](my3.png)
+The code reads the entire code without any distinguishers. It just keeps going.
+
+
