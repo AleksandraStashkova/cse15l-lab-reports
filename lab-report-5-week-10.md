@@ -20,6 +20,8 @@ In this case, my program found everything right, whilst Joe's did not find the l
 
 **How to fix that?**
 1. The line search has to be implemented up to the end of the line instead of just the first ")".
+![Image](mine.png)
 2. The program finds the potential link correctly, however it determines whether it is the right link by making sure there is " " or "/n". This could be fixed by adding a checkpoint which makes sure the element is last regardless of the fact whether "/n" is present or not.
+![Image](code_rev.png)
 
 Thanks!
